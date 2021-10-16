@@ -2,6 +2,26 @@ body {
     margin: 0;
     font-family: "Lucida Grande";
   }
+li {
+    list-style: none;
+  }
+  .header {
+    background-color: #1a41f0;
+    height: 90px;
+    color: white;
+  }
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+  .header-list {
+    float: left;
+  }
+  .header-list li {
+    float: left;
+    padding: 20px 40px;
+  }
   
   a {
     text-decoration: none;
