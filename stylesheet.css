@@ -1,8 +1,11 @@
+*{
+  box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: "Lucida Grande";
   }
-li {
+  li {
     list-style: none;
   }
   .header {
@@ -15,6 +18,14 @@ li {
     font-size: 36px;
     padding: 20px 40px;
   }
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display: none;
+  }
   .header-list {
     float: left;
   }
@@ -26,9 +37,12 @@ li {
   a {
     text-decoration: none;
   }
-  
+  .clear{
+    clear: left;
+  }
   .container {
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -46,6 +60,7 @@ li {
     font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .top-wrapper p {
@@ -54,7 +69,6 @@ li {
   }
   
   .tour-wrapper {
-    height: 500px;
     padding-bottom: 80px;
     background-color: #f7f7f7;
     text-align: center;
@@ -72,12 +86,13 @@ li {
   
   .tour {
     float: left;
-    width: 25%;
+    width: 25%;;
   }
   
   .tour-icon {
     position: relative;
     size: 5px;
+    padding-right: 5px;
   }
   
   .tour-icon p {
@@ -107,7 +122,7 @@ li {
   
   .message {
     padding: 15px 40px;
-    background-color: #00BFFF;
+    background-color: #1a41f0;
     cursor: pointer;
     box-shadow: 0 7px #6495ED;
   }
@@ -116,4 +131,23 @@ li {
     position: relative;
     top: 7px;
     box-shadow: none;
+  }
+  .footer {
+    background-color: #1a41f0;
+    color: #fff;
+    height: 120px;
+    padding: 20px 30px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 20px;
   }
