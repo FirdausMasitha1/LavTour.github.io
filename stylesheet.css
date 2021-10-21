@@ -128,22 +128,19 @@ body {
     top: 7px;
     box-shadow: none;
   }
- .footer {
+  .footer {
     background-color: #00BFFF;
     color: #fff;
-    height: 150px;
-    padding: 20px 30px;
+    height: 140px;
+    padding: 20px;
   }
-  
   .footer-logo {
     float: left;
-    font-size: 32px;
+    font-size: 35px;
   }
-  
   .footer-list {
     float: right;
   }
-  
   .footer-list li {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
