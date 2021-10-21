@@ -23,7 +23,6 @@ body {
     float: right;
     font-size: 25px;
     padding: 21px 0;
-    /* Gantikan property display ke none */
     display: none;
   }
   .header-list {
@@ -129,7 +128,7 @@ body {
     top: 7px;
     box-shadow: none;
   }
-  .footer {
+ .footer {
     background-color: #00BFFF;
     color: #fff;
     height: 140px;
