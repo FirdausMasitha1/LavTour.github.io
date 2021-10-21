@@ -28,12 +28,10 @@
       text-align: left;
     }
     
-    /* Tambahkan CSS untuk header-right */
     .header-list{
       display: none;
     }
     
-    /* Tambahkan CSS untuk menu-icon */
     .menu-icon{
       display: block;
     }
